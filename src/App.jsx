@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import HelpfulResource from "./components/HelpfulResource";
 import Section from "./components/Section";
@@ -29,6 +30,7 @@ function App() {
         <HelpfulResource label="React Full Course for Free" link="https://www.youtube.com/watch?v=CgkZ7MvWUAA" />
       </Section>
       <AboutMe />
+      <Footer />
     </div>
   );
 }
