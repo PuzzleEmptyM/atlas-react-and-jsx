@@ -1,10 +1,11 @@
+import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import HelpfulResource from "./components/HelpfulResource";
 import Section from "./components/Section";
 
 function App() {
   return (
-    <div className="app">
+    <div  className="app">
       <Header />
 
       <Section title="What is React?">
@@ -27,6 +28,7 @@ function App() {
         <HelpfulResource label="React Tutorial for Beginners" link="https://www.youtube.com/watch?v=SqcY0GlETPk" />
         <HelpfulResource label="React Full Course for Free" link="https://www.youtube.com/watch?v=CgkZ7MvWUAA" />
       </Section>
+      <AboutMe />
     </div>
   );
 }
