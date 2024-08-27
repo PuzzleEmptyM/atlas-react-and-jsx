@@ -1,4 +1,5 @@
 import React from 'react'
+import openImg from '../assets/open.svg'
 
 const OpenLink = (props) => {
   
@@ -10,7 +11,7 @@ const OpenLink = (props) => {
   
   return (
     <a href={props.link} onClick={whenClick}>
-      <img src='/src/assets/open.svg' alt='Open Link' />
+      <img src={openImg} alt='Open Link' />
     </a>
   );
 };

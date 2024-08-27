@@ -1,4 +1,7 @@
 import React from "react"
+import dayImg from "../assets/day.svg"
+import eveningImg from "../assets/evening.svg"
+import nightImg from "../assets/night.svg"
 
 const Greeting = () => {
   const currentTime = new Date().getHours();
@@ -7,16 +10,16 @@ const Greeting = () => {
 
   if (currentTime >= 6 && currentTime < 12) {
     greetingText = "Good Morning!";
-    imageSrc = "src/assets/day.svg";
+    imageSrc = dayImg;
   } else if (currentTime >= 12 && currentTime < 17) {
     greetingText = "Good Afternoon!";
-    imageSrc = "src/assets/day.svg";
+    imageSrc = dayImg;
   } else if (currentTime >= 17 && currentTime < 21) {
     greetingText = "Good Evening!";
-    imageSrc = "src/assets/evening.svg";
+    imageSrc = eveningImg;
   } else {
     greetingText = "Good Night!";
-    imageSrc = "src/assets/evening.svg";
+    imageSrc = nightImg;
   }
 
   return (

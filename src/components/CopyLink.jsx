@@ -1,4 +1,5 @@
 import React from 'react'
+import copyImg from "../assets/copy.svg"
 
 const CopyLink = (props) => {
   
@@ -17,7 +18,7 @@ const CopyLink = (props) => {
   return (
     <img 
     className='copy'
-    src='/src/assets/copy.svg'
+    src={copyImg}
     alt='Copy Link'
     onClick={whenClick}
     />
