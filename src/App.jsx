@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import HelpfulResource from "./components/HelpfulResource";
 import Section from "./components/Section";
 
 function App() {
@@ -19,6 +20,12 @@ function App() {
           <li>Works for both iOS and Android App development</li>
           <li>Great for SEO</li>
         </ul>
+      </Section>
+      <Section title="Helpful resources">
+        <HelpfulResource label="React in 100 seconds" link="https://www.youtube.com/watch?v=Tn6-PIqc4UM&feature=youtu.be" />
+        <HelpfulResource label="Vite guide" link="https://vitejs.dev/guide/" />
+        <HelpfulResource label="React Tutorial for Beginners" link="https://www.youtube.com/watch?v=SqcY0GlETPk" />
+        <HelpfulResource label="React Full Course for Free" link="https://www.youtube.com/watch?v=CgkZ7MvWUAA" />
       </Section>
     </div>
   );
