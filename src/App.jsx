@@ -10,7 +10,7 @@ function App() {
       <Header />
 
       <Section title="What is React?">
-        <p>React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components by Facebook Inc. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.</p>
+        <p>React is a JavaScript library that separates the user interface into separate components, where each component has its own properties and functions. This makes it easier to add elements and sections to a page dynamically, and also makes debugging easier to do. </p>
       </Section>
 
       <Section title="Benefits of React">
